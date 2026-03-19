@@ -1,3 +1,105 @@
-h1{
+body {
+    font-family: Arial;
+    margin: 0;
+    
+}
 
+
+header img {
+    width: 120px;
+}
+
+haeder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+
+}
+
+header input {
+    width: 60%;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+header button {
+    padding: 8px;
+}
+
+header a {
+    text-decoration: none;
+
+
+}
+main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+section {
+    flex: 2;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+}
+
+aside video {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+aside img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+aside p {
+   font-size: 14px;
+   margin: 5px 0 15px;
+}
+
+.comentarios {
+    padding: 20px;
+}
+
+.comentarios p {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+
+section h2 {
+    margin-top: 10px;
+}
+
+
+section video {
+    width: 100%;
+    border-radius: 10px;
+   
+}
+ 
+aside img, aside video{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
 }
